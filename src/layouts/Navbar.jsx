@@ -131,7 +131,7 @@ export default function Topbar({ locale, setLocale }) {
           onClick={() => setOpen(!open)}
         >
           <div className="ml-2 text-sm">
-            <p className="font-medium text-gray-800 dark:text-gray-200">Hamody</p>
+            <p className="font-medium text-gray-800 dark:text-gray-200">Rokaya</p>
             <p className="text-gray-500 dark:text-gray-400 text-xs">Admin</p>
           </div>
           <FiChevronDown className="ml-2 text-gray-600 dark:text-gray-300" />
