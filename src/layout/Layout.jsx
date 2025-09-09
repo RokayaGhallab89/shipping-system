@@ -8,12 +8,12 @@ export default function Layout({ children }) {
   const [locale, setLocale] = useState("en"); // en or ar
   const [darkMode, setDarkMode] = useState(false);
 
-  // ✨ تغيير اللغة
+  
   const toggleLang = () => {
     setLocale(locale === "en" ? "ar" : "en");
   };
 
-  // ✨ تغيير الثيم
+ 
   const toggleDarkMode = () => {
     setDarkMode(!darkMode);
     if (!darkMode) {
